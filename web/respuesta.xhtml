@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html">
+    <head>
+        <title>respuesta</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    </head>
+    <body>
+        <div id="contenedorPrincipal">
+            <div id="left" >
+                <h4>
+                    <h:outputText escape="false" value="#{numeroUsuarioBean.respuesta}"/>
+                </h4>
+                <h:form>
+                    <h:commandButton id="botonAtras" value="Volver" action="index"/>
+                </h:form>
+            </div>
+        </div>
+    </body>
+</html>
